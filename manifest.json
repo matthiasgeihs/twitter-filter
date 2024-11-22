@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Twitter Filter",
+  "description": "Filter Twitter for unwanted comments.",
+  "version": "0.1.0",
+  "icons": {
+    "16": "images/icon-16.png",
+    "128": "images/icon-128.png"
+  },
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
+  "minimum_chrome_version": "102",
+  "omnibox": {
+    "keyword": "api"
+  },
+  "permissions": ["alarms", "storage"],
+  "host_permissions": ["http://localhost:11434/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://x.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "options_page": "options.html"
+}
