@@ -4,8 +4,9 @@ A Chrome extension that filters annoying Twitter content.
 
 ## Example
 
-Hateful / inflammatory comments are hidden.
-Other comments are shown as usual.
+Once installed, the extension will hide posts based on your preferences.
+
+You can see in the image below how hateful or inflammatory comments are hidden, whileo ther comments are shown as usual.
 Filter criteria can be configured in extension options.
 
 <p style="text-align: center;"><img src="./images/example.png" alt="Mocked screenshot" width="480"></p>
