@@ -1,4 +1,4 @@
-# Twitter Filter
+# twitter-filter
 
 A Chrome extension that filters annoying Twitter content.
 
