@@ -1,6 +1,6 @@
 # Twitter Filter
 
-Filter annoying Twitter content.
+A Chrome extension that filters annoying Twitter content.
 
 ## Example
 
